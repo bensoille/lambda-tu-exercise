@@ -1,4 +1,6 @@
-# exercise-app
+# lambda-tu-exercise
+
+Some training about Unit Testing on *AWS lambda* functions
 
 This project contains source code and supporting files for a serverless application that you can deploy with the SAM CLI. It includes the following files and folders.
 
@@ -45,7 +47,7 @@ sam build
 Build your application with the `sam build` command.
 
 ```bash
-exercise-app$ sam build
+lambda-tu-exercise$ sam build
 ```
 
 The SAM CLI installs dependencies defined in `hello-world/package.json`, creates a deployment package, and saves it in the `.aws-sam/build` folder.
@@ -53,7 +55,7 @@ The SAM CLI installs dependencies defined in `hello-world/package.json`, creates
 The SAM CLI can emulate your application's API. Use the `sam local start-api` to run the API locally on port 3000.
 
 ```bash
-exercise-app$ sam local start-api
+lambda-tu-exercise$ sam local start-api
 
 Mounting HelloWorldFunction at http://127.0.0.1:3000/hello [GET]
 You can now browse to the above endpoints to invoke your functions. You do not need to restart/reload SAM CLI while working on your functions, changes will be reflected instantly/automatically. You only need to restart SAM CLI if you update your AWS SAM template
@@ -70,7 +72,7 @@ To simplify troubleshooting, SAM CLI has a command called `sam logs`. `sam logs`
 `NOTE`: This command works for all AWS Lambda functions; not just the ones you deploy using SAM.
 
 ```bash
-exercise-app$ sam logs -n HelloWorldFunction --stack-name exercise-app --tail
+lambda-tu-exercise$ sam logs -n HelloWorldFunction --stack-name lambda-tu-exercise --tail
 ```
 
 You can find more information and examples about filtering Lambda function logs in the [SAM CLI Documentation](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-sam-cli-logging.html).
@@ -80,7 +82,7 @@ You can find more information and examples about filtering Lambda function logs 
 Tests are defined in the `hello-world/tests` folder in this project. Use NPM to install the [Mocha test framework](https://mochajs.org/) and run unit tests.
 
 ```bash
-exercise-app$ cd hello-world
+lambda-tu-exercise$ cd hello-world
 hello-world$ npm install
 hello-world$ npm run test
 ```
@@ -90,7 +92,7 @@ hello-world$ npm run test
 To delete the sample application that you created, use the AWS CLI. Assuming you used your project name for the stack name, you can run the following:
 
 ```bash
-aws cloudformation delete-stack --stack-name exercise-app
+aws cloudformation delete-stack --stack-name lambda-tu-exercise
 ```
 
 ## Resources
