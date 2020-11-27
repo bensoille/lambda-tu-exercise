@@ -21,7 +21,7 @@ The AWS Toolkit is an open source plug-in for popular IDEs that uses the SAM CLI
 
 ## 1 - Get files and build modules
 
-1. clone this repository : `git clone ...`
+1. fork and then clone this repository : `git clone ...`
 2. *cd* to project directory *npm* root : `cd lambda-tu-exercise/hello-world`
 3. install *nodejs* stuff : `npm i`
 
