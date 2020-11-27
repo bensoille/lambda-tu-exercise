@@ -89,14 +89,6 @@ hello-world$ npm run test
 
 **This is another way to execute application, in controlled contexts**
 
-## Cleanup
-
-To delete the sample application that you created, use the AWS CLI. Assuming you used your project name for the stack name, you can run the following:
-
-```bash
-aws cloudformation delete-stack --stack-name lambda-tu-exercise
-```
-
 ## Resources
 
 See the [AWS SAM developer guide](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/what-is-sam.html) for an introduction to SAM specification, the SAM CLI, and serverless application concepts.
