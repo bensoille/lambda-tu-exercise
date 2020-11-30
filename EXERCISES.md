@@ -22,10 +22,11 @@ The path is defined in an UNIQUE location. Find where this information is config
 Application must be relaunched for changes to take effect and for new path to be exposed.
 
 Hit `Ctrl+C` in console where lives your `sam local start-api` and stop services.    
+This type of changes need app rebuild : issue command `sam build`.     
 Then restart with `sam local start-api` in same console.
 
 ### 3 - Try your change
-App should be accessible at [this URL](http://127.0.0.1:3000/greet) now.
+App should be accessible at [this URL](http://127.0.0.1:3000/greet) now. Old path results in error 403.
 
 ### 4 - Check that UTs are green
 Rerun tests and check that it's all green
