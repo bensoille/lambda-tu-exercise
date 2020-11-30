@@ -1,8 +1,6 @@
 # Exercises
 
-Once the app is up and running (see [this page](README.md) for setup instructions), the real work begins :)
-
-When doing exercises, **please create branches and do your work in branches** : you can then merge tham to master, of course, if you want.
+Once the app is up and running (see [this page](https://github.com/bensoille/lambda-tu-exercise/blob/master/README.md) for setup instructions), the real work begins :)
 
 # Checkout exercice branch
 
@@ -26,4 +24,8 @@ Say that the developer has changed something because he/she was asked for :
 The failing unit test must be fixed, as truth is in the app code in this case
 
 ### 3 - Fix unit test
-Fix test so that it passes, then commit fix in the current branch
+Fix test so that it passes, **then commit fix in the current branch**
+
+### 4 - Check that everything passes now
+Rerun tests and check that it's all green
+
