@@ -16,3 +16,6 @@ When doing exercises, **please do your work in branches as asked in exercises** 
 
 ## 4 - Move function to another URL
 [See this page](https://github.com/bensoille/lambda-tu-exercise/blob/tu-moveurl-exercise/EXERCISES.md)
+
+## 5 - Change micro service with UT
+[See this page](https://github.com/bensoille/lambda-tu-exercise/blob/tu-appaddition-exercise/EXERCISES.md)
