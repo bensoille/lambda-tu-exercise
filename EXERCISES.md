@@ -6,7 +6,7 @@ Once the app is up and running (see [this page](https://github.com/bensoille/lam
 Issue following command and checkout this exercise source code :
 
 ```bash
-git checkout tu_run_exercise
+git checkout tu-run-exercise
 ```
 
 ## 1 - Run unit tests
