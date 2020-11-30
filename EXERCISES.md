@@ -6,7 +6,7 @@ Once the app is up and running (see [this page](https://github.com/bensoille/lam
 
 Issue following command and checkout this exercise source code :    
 ```bash
-git checkout tu_add_exercise
+git checkout tu-add-exercise
 ```
 
 ## Missing unit test wanted !
