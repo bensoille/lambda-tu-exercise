@@ -11,3 +11,5 @@ When doing exercises, **please do your work in branches as asked in exercises** 
 ## 2 - UT is broken
 [See this page](https://github.com/bensoille/lambda-tu-exercise/blob/tu_change_exercise/EXERCISES.md)
 
+## 3 - UT is missing
+[See this page](https://github.com/bensoille/lambda-tu-exercise/blob/tu-add-exercise/EXERCISES.md)
