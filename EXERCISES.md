@@ -1,11 +1,11 @@
 # Exercises
 
-Once the app is up and running (see [this page](README.md) for setup instructions), the real work begins :)
+Once the app is up and running (see [this page]((https://github.com/bensoille/lambda-tu-exercise/blob/master/README.md)) for setup instructions), the real work begins :)
 
-When doing exercises, **please do your work in branches as asked in exercises** : you can then merge tham to master, of course, if you want.
+## 1 - Run unit tests
+Run unit tests and see results.
 
-## 1 - UT is broken
+- tests are coded in file [test-handler.js](), feel free to inspect
+- tests are run with command `npm test` , the file `package.json` must be in current directory
+- tested function is in the file [app.js]()
 
-[See this page](https://github.com/bensoille/lambda-tu-exercise/blob/tu_change_exercise/EXERCISES.md)
-
-## 2 - 
