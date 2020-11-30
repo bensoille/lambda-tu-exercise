@@ -1,6 +1,6 @@
 # Exercises
 
-Once the app is up and running (see [this page]((https://github.com/bensoille/lambda-tu-exercise/blob/master/README.md)) for setup instructions), the real work begins :)
+Once the app is up and running (see [this page](https://github.com/bensoille/lambda-tu-exercise/blob/master/README.md) for setup instructions), the real work begins :)
 
 # Checkout exercise branch
 Issue following command and checkout this exercise source code :
