@@ -13,3 +13,6 @@ When doing exercises, **please do your work in branches as asked in exercises** 
 
 ## 3 - UT is missing
 [See this page](https://github.com/bensoille/lambda-tu-exercise/blob/tu-add-exercise/EXERCISES.md)
+
+## 4 - Move function to another URL
+[See this page](https://github.com/bensoille/lambda-tu-exercise/blob/tu-moveurl-exercise/EXERCISES.md)
