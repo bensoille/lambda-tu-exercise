@@ -1,15 +1,37 @@
 # Exercises
 
-Once the app is up and running (see [this page](README.md) for setup instructions), the real work begins :)
+Once the app is up and running (see [this page](https://github.com/bensoille/lambda-tu-exercise/blob/master/README.md) for setup instructions), the real work begins :)
 
-When doing exercises, **please do your work in branches as asked in exercises** : you can then merge tham to master, of course, if you want.
+# Checkout exercice branch
 
+Issue following command and checkout this exercise source code :    
+```bash
+git checkout tu-moveurl-exercise
+```
 
-## 1 - Run unit tests
-[See this page](https://github.com/bensoille/lambda-tu-exercise/blob/tu-run-exercise/EXERCISES.md)
+## Move exposed function
 
-## 2 - UT is broken
-[See this page](https://github.com/bensoille/lambda-tu-exercise/blob/tu_change_exercise/EXERCISES.md)
+A function must be moved away, we must change the URL at which it is accessed.
+It's been decided that this function is no longer accessible at URL `/hello`, but instead it will be accessed at URL `/greet`.
 
-## 3 - UT is missing
-[See this page](https://github.com/bensoille/lambda-tu-exercise/blob/tu-add-exercise/EXERCISES.md)
+### 1 - Change path
+The path is defined in an UNIQUE location. Find where this information is configured in code and change path accordingly.
+> Hint : path and http method are both declared in same *declarative* YAML file.
+
+### 2 - Relaunch app
+Application must be relaunched for changes to take effect and for new path to be exposed.
+
+Hit `Ctrl+C` in console where lives your `sam local start-api` and stop services.    
+Then restart with `sam local start-api` in same console.
+
+### 3 - Try your change
+App should be accessible at [this URL](http://127.0.0.1:3000/greet) now.
+
+### 4 - Check that everything passes now
+Rerun tests and check that it's all green
+
+### 5 - eventually fix failing tests
+If needed
+
+### 6 - Push your changes to current branch
+
