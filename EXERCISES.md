@@ -27,10 +27,10 @@ Then restart with `sam local start-api` in same console.
 ### 3 - Try your change
 App should be accessible at [this URL](http://127.0.0.1:3000/greet) now.
 
-### 4 - Check that everything passes now
+### 4 - Check that UTs are green
 Rerun tests and check that it's all green
 
-### 5 - eventually fix failing tests
+### 5 - Eventually fix failing tests
 If needed
 
 ### 6 - Push your changes to current branch
