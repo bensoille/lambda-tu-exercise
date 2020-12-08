@@ -35,14 +35,14 @@ for branch in tu-appaddition-exercise tu-moveurl-exercise tu-add-exercise tu-run
     echo '_____________________________'
     
     # First get on master
-    git checkout master
-    
-    # Then create branch from upstream locally
+    # Then locally create branch from upstream 
     # And push local branch to forked repository only if branch created ok
-    git checkout -b $branch upstream/$branch && git push -u origin $branch
-    
     # Finally, get back on master 
-    git checkout master
+    git checkout master && git checkout -b $branch upstream/$branch && git push -u origin $branch && git checkout master
+    
+    if [ $? -ne 0 ]; then
+        echo -e '\e[91mCould not sync branch '$branch'. Did it exist previously ?\e[0m'
+    fi    
     
     # Some friendly closing message
     echo 'Branch '$branch' synced'
